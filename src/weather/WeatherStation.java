@@ -21,7 +21,7 @@ public class WeatherStation {
 		// for the update method (Java can infer those), but you need the names.
 
 		// Fill in the blanks here: 
-		//Observer needUmbrella = (......)-> {if ..... System.out.println("Bring an umbrella!");};
+		//TempHumPressObserver needUmbrella = (......)-> {if ..... System.out.println("Bring an umbrella!");};
 		//weatherData.registerObserver(needUmbrella);
 		
 		// Q2: 
