@@ -1,8 +1,19 @@
 package swing;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-
 import javax.swing.*;
+
+/*
+ * Resources:
+ * Listeners in Java swing (a library for creating interactive applications) are
+ * observers of interactive events: mouse moves, button presses, text entered, etc.  
+ * 
+ * In this example we use: 
+ * https://docs.oracle.com/en/java/javase//20/docs/api/java.desktop/java/awt/event/ActionListener.html
+ * https://docs.oracle.com/en/java/javase//20/docs/api/java.desktop/javax/swing/JButton.html
+ * JButton's abstract superclass AbstractButton:
+ * https://docs.oracle.com/en/java/javase//20/docs/api/java.desktop/javax/swing/AbstractButton.html
+ */
 	
 public class SwingObserverExample {
 	static JFrame frame; // make the frame static to avoid creating an object
@@ -52,7 +63,7 @@ public class SwingObserverExample {
 //		button.setOpaque(true);
 //		button.setBorderPainted(false);
 		
-		// Then add a listener that, every time the button is pressed, changes
+		// Add a listener that, every time the button is pressed, changes
 		// the background to a random color out of three colors of your choice.
 		// Note that it's better to put the color choice in a separate static method 
 		// and just call that method in the lambda. 
